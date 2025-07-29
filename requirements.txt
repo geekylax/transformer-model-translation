@@ -1,0 +1,13 @@
+# Core ML libraries with security patches
+torch>=2.6.0  # Updated to address CVE-2025-32434 and other security vulnerabilities
+datasets>=2.14.0
+tokenizers>=0.13.0
+numpy>=1.24.0,<2.0.0  # Use NumPy 1.x for compatibility
+
+# Training and monitoring
+tensorboard>=2.13.0
+tqdm>=4.65.0
+
+# Development dependencies (optional)
+jupyter>=1.0.0
+matplotlib>=3.5.0 
